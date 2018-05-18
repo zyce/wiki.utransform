@@ -130,8 +130,13 @@ session_save_path(dirname( __FILE__ ) . '/tmp');
 
 # Benutzerregistrierung deaktivieren
 $wgGroupPermissions[‚*‘][‚createaccount‘] = false;
-$egChameleonLayoutFile= __DIR__ . '/skins/chameleon/layouts/stickyhead.xml';
+$egChameleonLayoutFile= __DIR__ . '/skins/chameleon/layouts/fixedhead.xml';
 ## To enable image uploads, make sure the 'images' directory
 ## is writable, then set this to true:
 $wgEnableUploads  = true;
 $wgGenerateThumbnailOnParse = false;
+
+## Extensions
+require_once "$IP/extensions/SimpleTooltip/SimpleTooltip.php";
+require_once "$IP/extensions/HeaderTabs/HeaderTabs.php";
+require_once "$IP/extensions/OpenLayers/OpenLayers.php";

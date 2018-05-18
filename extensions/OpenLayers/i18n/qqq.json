@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Paladox"
+		]
+	},
+	"openlayers-extensionname": "{{optional}}",
+	"openlayers-desc": "{{desc|name=OpenLayers|url=https://www.mediawiki.org/wiki/Extension:OpenLayers}}"
+}

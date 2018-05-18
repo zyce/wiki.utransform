@@ -1,0 +1,32 @@
+{
+	"@Note": "When updating this file please also update OpenLayers.php with the same changes.",
+	"name": "OpenLayers",
+	"namemsg": "openlayers-extensionname",
+	"version": "1.0.0",
+	"author": [
+		"Yaron Koren",
+		"Paladox",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:OpenLayers",
+	"descriptionmsg": "openlayers-desc",
+	"type": "other",
+	"MessagesDirs": {
+		"OpenLayers": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.openlayers.main": {
+			"scripts": [
+				"libs/OpenLayers/OpenLayers.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "OpenLayers"
+	},
+	"config": {},
+	"manifest_version": 1
+}
