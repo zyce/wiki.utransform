@@ -41,6 +41,7 @@ $wgStylePath = "$wgScriptPath/skins";
 $wgStylePath        = "$wgScriptPath/skins";
 $wgStyleDirectory   = "$IP/skins";
 $wgLogo             = "$wgStylePath/common/images/logo.png";
+$wgFavicon = "$wgStylePath/skins/common/images/favicon.ico";
 
 ## UPO means: this is also a user preference option
 
