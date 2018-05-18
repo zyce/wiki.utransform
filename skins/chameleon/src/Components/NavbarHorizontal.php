@@ -116,7 +116,7 @@ class NavbarHorizontal extends Component {
 					'id'    => $this->getHtmlId()
 				)
 			) .
-			$this->indent( 1 ) . '<div class="container-fluid">';
+			$this->indent( 1 ) . '<div class="container">';
 
 		$this->indent( 1 );
 
