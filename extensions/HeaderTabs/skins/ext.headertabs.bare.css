@@ -13,11 +13,11 @@
  * for use with $htEditTabLink.
  */
 span.ht-editsection {
-	float: right;
+	display: none;
 }
 
 #headertabs.bare.ui-widget {
-	font-family: inherit;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 1em; /* IE doesn't like inherit here */
 }
 
@@ -45,7 +45,7 @@ span.ht-editsection {
 }
 
 /* section by 70.189.238.136 */
-#headertabs.bare .ui-widget input, #headertabs.bare .ui-widget select, #headertabs.bare .ui-widget textarea, #headertabs.bare .ui-widget button { font-family: inherit; font-size: 1em; } /* ie doesn't like inherit here */
+#headertabs.bare .ui-widget input, #headertabs.bare .ui-widget select, #headertabs.bare .ui-widget textarea, #headertabs.bare .ui-widget button { font-family: 'Ubuntu', sans-serif; font-size: 1em; } /* ie doesn't like inherit here */
 #headertabs.bare .ui-widget-content a { color:#0645AD; }
 #headertabs.bare .ui-widget-content a:visited { color:#0b0080; }
 #headertabs.bare .ui-widget-content a.new { color:#CC2200; }

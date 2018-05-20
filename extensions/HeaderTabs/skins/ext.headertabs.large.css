@@ -14,16 +14,16 @@
  * for use with $htEditTabLink.
  */
 span.ht-editsection {
-        float: right;
+		display: none;
 }
 
 #headertabs.large.ui-widget {
-	font-family: inherit;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 1em; /* IE doesn't like inherit here */
 }
 
 /* section by 70.189.238.136 */
-#headertabs.large .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: inherit; font-size: 1em; } /* IE doesn't like inherit here */
+#headertabs.large .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: 'Ubuntu', sans-serif; font-size: 1em; } /* IE doesn't like inherit here */
 #headertabs.large .ui-widget-content a { color:#0645AD; }
 #headertabs.large .ui-widget-content a:visited { color:#0b0080; }
 #headertabs.large .ui-widget-content a.new { color:#CC2200; }
